@@ -1,0 +1,40 @@
+
+body
+{
+  margin: 50px; background-color: lightblue;
+}
+table, th, td
+{
+  border: 1px solid black;
+}
+th
+{
+  text-align: center;
+}
+table
+{
+  background-color: khaki;
+}
+h1, h2
+{
+  font-family: cursive;
+}
+img
+{
+  height: 150px;
+  margin-right: 350px;
+  margin: auto;
+}
+.koko
+{
+  display: block;
+width: 60%;
+margin: auto;
+margin-top: 20px;
+}
+#oikea
+{
+  float: right;
+  margin-right: 350px;
+
+}
