@@ -6,6 +6,9 @@ body
 table, th, td
 {
   border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2px;
+  text-align: center;
 }
 th
 {
@@ -24,6 +27,7 @@ img
   height: 150px;
   margin-right: 350px;
   margin: auto;
+
 }
 .koko
 {
