@@ -1,0 +1,82 @@
+body
+{
+  margin-left: 50px;
+}
+#eka
+{
+  font-family: cursive;
+  color: green;
+  font-size: 50px;
+}
+#yksi
+{
+  color: red;
+  font-size: 10px;
+}
+#kaksi
+{
+  color: blue;
+  font-size: 15px;
+}
+#kolme
+{
+  color: #7FFFD4;
+  font-size: 20px;
+}
+#neljä
+{
+  color: blue;
+  font-size: 25px;
+}
+#viisi
+{
+  color: beige;
+  font-size: 35px;
+}
+#kuusi
+{
+  color: blueviolet;
+  font-size: 30px;
+}
+#seitsemän
+{
+  color: cadetblue;
+  font-size: 25px;
+}
+#kahdeksan
+{
+  color: #7FFF00;
+  font-size: 20px;
+}
+#yhdeksän
+{
+  color: darkred;
+  font-size: 15px;
+}
+#kymmenen
+{
+  color: #FF1493;
+  font-size: 10px;
+}
+#toka
+{
+  color: red;
+  font-style: italic;
+  font-family: serif;
+}
+#kolmas
+{
+  font-family:monospace;
+}
+#pa
+{
+  font-family: Brush Script MT;
+}
+#neljäs
+{
+  font-family: Snell Roundhand, cursive;
+}
+#pai
+{
+  font-family: Brush Script Std, cursive;
+}
