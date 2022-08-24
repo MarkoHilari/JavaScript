@@ -1,0 +1,33 @@
+body
+{
+  width: 800px;
+  background-color: #FFF2CD;
+}
+header{
+  padding: 20px;
+}
+nav
+{
+  text-align: center;
+}
+h1
+{
+  text-align: center;
+}
+section
+{
+
+}
+
+aside
+{
+  float: right;
+  background-color: #B7AE5F;
+  width: 300px;
+  padding: 20px;
+}
+article
+{
+  width: 480px;
+  float: left;
+}
