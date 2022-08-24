@@ -1,33 +1,44 @@
 body
 {
   width: 800px;
+  margin: auto;
   background-color: #FFF2CD;
 }
 header{
-  padding: 20px;
+  padding: 5px, 0px, 10px, 10px;
 }
 nav
 {
-  text-align: center;
+  width: 200px;
+  margin: auto;
+  background-color: #FFFBED
 }
-h1
+header > h1
 {
   text-align: center;
 }
-section
-{
-
-}
-
 aside
 {
   float: right;
   background-color: #B7AE5F;
-  width: 300px;
+  width: 200px;
+  height: 290px;
   padding: 20px;
 }
 article
 {
-  width: 480px;
+  width: 560px;
+  height: 330px;
   float: left;
+  background-color: #CCBE90;
+}
+img
+{
+  height: 225px;
+  margin-left: 25px;
+}
+.kissa
+{
+  height: 250px;
+  width: 350px;
 }
