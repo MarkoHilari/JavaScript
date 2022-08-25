@@ -42,3 +42,11 @@ img
   height: 250px;
   width: 350px;
 }
+h1, h3, section > p
+{
+  margin-left: 20px;
+}
+article > p
+{
+  margin-left: 20px;
+}
