@@ -1,0 +1,35 @@
+div.logoa
+{
+  text-align: center;
+  max-width: 100%;
+}
+div.hr {
+  height: 5px;
+  background: #4919E3;
+}
+div.otsikko
+{
+  text-align: center;
+  clear: both;
+}
+article.tietoa
+{
+  text-align: left;
+}
+section
+{
+  margin-top: 20px;
+
+}
+.numero1
+{
+  max-width: 5%;
+}
+.lokero
+{
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+  background-color: #E7E7E7;
+}
