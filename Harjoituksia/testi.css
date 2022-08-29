@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+  }
+  input[type=text].flomake, select.flomake, textarea.flomake {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  label.flomake {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  input[type=submit].flomake {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .kokolomake {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .leveys-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  .leveys-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  .viestikentta{
+    height: 100px;
+  }
+  /* lopettaa kenttien "kellumisen" */
+  .kellu:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Responsivuus - kun näytön leveys pienempi kuin 600px ,
+   kentien edessä oleva teksti siirtyy kenttiewn yläpuolelle */
+  @media screen and (max-width: 600px) {
+    .leveys-25, .leveys-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  div.logoa
+  {
+    text-align: center;
+    max-width: 100%;
+  }
+  div.hr {
+    height: 5px;
+    background: #4919E3;
+  }
+  div.otsikko
+  {
+    text-align: center;
+    clear: both;
+  }
+  article.tietoa
+  {
+    text-align: left;
+  }
+  section
+  {
+    margin-top: 20px;
+
+  }
+  .numero1
+  {
+    max-width: 5%;
+  }
+  .lokero
+  {
+    max-width: 40%;
+    padding: 10px;
+    border: 5px solid lightblue;
+    margin: 0;
+    background-color: ;
+    max-height: 60%;
+  }
+  aside
+  {
+    float: right;
+    max-height: 100%;
+    max-width: 60%;
+  }
+  aside > p
+  {
+    font-size: 10px;
+  }

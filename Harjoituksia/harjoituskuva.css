@@ -27,9 +27,44 @@ section
 }
 .lokero
 {
-  width: 320px;
+  max-width: 40%;
   padding: 10px;
-  border: 5px solid gray;
+  border: 5px solid lightblue;
   margin: 0;
-  background-color: #E7E7E7;
+  background-color: ;
+  max-height: 60%;
+}
+aside
+{
+  float: right;
+  max-height: 100%;
+  max-width: 60%;
+}
+aside > p
+{
+  font-size: 10px;
+}
+.text-right{float: right;
+
+}
+.laheta
+{
+  margin-right: 20px;
+  background-color: lightblue;
+}
+.border
+{
+    border:1px solid black;
+}
+.otsikko > label
+{
+  min-width: 100px;
+  border:1px solid black;
+}
+label { display: inline-block; width: 100px; }
+.joku
+{
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 5px;
 }
