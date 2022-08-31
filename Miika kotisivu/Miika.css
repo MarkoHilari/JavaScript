@@ -1,3 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+.header {
+  /*border: 1px solid red;*/
+  padding: 15px;
+  margin-left: 800px;
+  color: red;
+  text-align: center;
+  width: 600px;
+}
+
+.menu {
+  width: 25%;
+  float: left;
+  padding: 12px;
+  border: 1px solid red;
+}
 body {
   background-image: url('adam.jpg');
   background-repeat: no-repeat;
@@ -5,40 +23,11 @@ body {
   background-size: 100% 100%;
   margin-top: 50px;
 }
+ul{
 
-navi
-{
-  max-height: 80%;
-  max-width: 20%;
-  margin: 20px;
-}
-.border
-{
-    border:1px solid black;
-}
-.otsikko
-{
-  color: #C72BA9;
-  font-size: 30px;
-  margin-left: 350px;
-  margin-right: 20px;
-  max-width: 60%;
-  text-align: center;
-}
-nav > ul{
-  width: 100px;
-  margin-left: 50px;
   list-style-type: none;
 }
-.navigointi
-{
-  max-height: 70%;
-  margin: 20px;
-  color: red;
-
-}
-li
-{
-  color: red;
-  text-decoration: none;
+nav{
+  position: fixed;
+  top: 5;
 }
