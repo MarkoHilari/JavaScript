@@ -16,7 +16,8 @@
   padding: 12px;
   border: 1px solid red;
 }
-body {
+
+.Etusivu {
   background-image: url('adam.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;

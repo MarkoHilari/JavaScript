@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+h1{
+  padding: 15px;
+  margin-left: 600px;
+  color: blue;
+  font-size: 40px;
+  font-family: papyrus;
+  text-align:  center;
+  width: 500px;
+  background-color: grey;
+  border-radius: 20px;
+}
+
+.menu {
+  width: 200px;
+  float: left;
+  background-color: grey;
+  border-radius: 50px;
+  margin-left: 70px;
+  font-size: 20px;
+  font-family: papyrus;
+}
+
+.kuva {
+  background-image: url('adam.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-left: 180px;
+  margin-top: 160px;
+  width: 800px;
+  height: 500px;
+  border-radius: 50px;
+}
+ul{
+
+  list-style-type: none;
+}
+nav{
+  position: fixed;
+  top: 5;
+}
+.sivut
+{
+  width: 200px;
+  float: right;
+  padding: 20px;
+  margin-right: 100px;
+  margin-top: -20px;
+  background-color: grey;
+  border-radius: 50px;
+  text-align: center;
+}
+body
+{
+  background-image: url(gravel.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 80%;
+}
+.kerro
+{
+  float: left;
+}
+hr
+{
+  width: 160px;
+  margin-left: -20px;
+}
+.Tausta
+{
+  margin-left: 0px;
+  text-align: center;
+}
