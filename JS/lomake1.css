@@ -1,0 +1,41 @@
+/*sama täällä, nyt tuntuu että on liikaa muutoksia, sekä en ihan ymmärrä miksi alla oleva border class (apu) näyttää
+form sisällön koko matkalta eikä vain lomakkeen kokoa. Toki nyt on divillä tehtynä, mutta en saa sitä oikeaan kokoo
+vaikka antaisi arvon width 50%*/
+form
+{
+  margin-top: 50px;
+
+}
+#tulos
+{
+  margin: 0 auto;
+  width: 428px;
+  background-color: black;
+  color: white;
+}
+.border
+{
+  border: 2px solid red;
+}
+div
+{
+  margin: 0 auto;
+  margin-bottom: -10px;
+  width: 400px;
+  background-color: #FFF8DC;
+  padding: 5px;
+}
+p
+{
+  font-size: 20px;
+}
+label
+{
+  font-size: 18px;
+  display: inline-block;
+  width: 40%;
+}
+body
+{
+  background-color: #FFE49D;
+}

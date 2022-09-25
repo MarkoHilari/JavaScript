@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="lomake1.css">
+    <script src="lomake1.js" charset="utf-8"></script>
+    <title>harjoitusta lomakkeella</title>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      <div><!-- Toimiiko tämä näin pelkästään diveillä, vai vaatiiko lisää tavaraa??-->
+          <label for="Etunimi">Anna etunimesi:</label>
+          <input type="text" id="enimi" value="">
+          <label for="Sukunimi">Anna sukunimesi:</label>
+          <input type="text" id="snimi" value="">
+      </div>
+      <div>
+        <p>Tulin tänään kouluun:</p>
+          <input type="radio" name = "kouluun" value="jalan">Jalan<br/>
+          <input type="radio" name = "kouluun" value="autolla">Autolla<br/>
+          <input type="radio" name = "kouluun" value="junalla">Junalla<br/>
+          <input type="radio" name = "kouluun" value="bussilla">Bussilla<br/>
+          <input type="radio" name = "kouluun" value="mopolla">Mopolla<br/>
+          <input type="radio" name = "kouluun" value="uimalla">Uiden<br>
+          <input type="radio" name = "kouluun" value="konttaamalla">konttaamalla
+        </div>
+      <div>
+        <p>Lempituntini koulussa on:</p>
+        <select id="lempitunti" name="">
+          <option value="">(Valitse alta oikea vaihtoehto)</option>
+          <option value="Tietotekniikka">Tietotekniikka</option>
+          <option value="Liikunta">Liikunta</option>
+          <option value="Fysiikka">Fysiikka</option>
+          <option value="Englanti">Englanti</option>
+          <option value="Ruotsi">Ruotsi</option>
+          <option value="Kemia">Kemia</option>
+        </select><p></p>
+        <button type="button" name="button" onclick="tarkasta()">Lähetä</button>
+      </div>
+    </form>
+    <p id="tulos"></p>
+  </body>
+</html>
