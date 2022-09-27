@@ -1,0 +1,173 @@
+main
+{
+  background-color: #F5F6DB;
+  padding:  5px 20px;
+}
+
+/* {
+  box-sizing: border-box;
+}*/
+
+/* Create three equal columns that floats next to each other */
+.grid-container {
+    display: grid;
+    grid-template-areas: 'left middle right';
+    grid-gap: 10px;
+    background-color: #F0D864;
+    padding: 10px;
+  }
+
+.boxi {
+  float: left;
+  width: 29%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  background-color: #FFEBC2;
+  width: 70%;
+  margin: auto;
+}
+.border
+{
+  border: 2px solid blue;
+}
+.artikkeli
+{
+  width: 60%;
+}
+.logon
+{
+  float: left;
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+}
+#otsikko
+{
+  font-family: 'Lora', serif;
+  margin-left: 100px;
+  font-size: 40px;
+  color: #FF8100;
+  width: 600px;
+}
+#alaotsikko
+{
+  font-family: 'Qwitcher Grypen', cursive;
+  font-size: 50px;
+  margin-left: 10%;
+  color: #FFAA00;
+  width:
+}
+
+nav
+{
+  float: right;
+  margin-top: -70px;
+  margin-right: 150px;
+  font-style: italic;
+  font-size: 20px;
+}
+.alle
+{
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.maisema
+{
+height: 70%;
+  margin: 40px 0px 0px 50px;
+}
+.maisema1
+{
+  width: 40%;
+  height: 70%;
+  margin: 40px 0px 0px 0px;
+}
+header
+{
+  display: table;
+  width: 80%;
+}
+footer
+{
+  display: table-row;
+}
+ul
+{
+  list-style: none;
+}
+#alakuva
+{
+
+}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+  .Koodarit
+  {
+  float: right;
+  width: 15%;
+  background-color: #948BB1;
+  height: 600px;
+  border-radius: 20px;
+  margin-right: 40px;
+  text-align: center;
+  }
+aside img
+{
+  width: 100%
+}
+/*   #turhautunut
+  {
+  height: 128px;
+  }*/
+.tekstiä
+{
+  font-family: 'Combo', cursive; font-size: 20px;
+}
+.discord
+{
+  height: 0px;
+}
+.face
+{
+  width: 40px;
+  margin-top: 250px;
+  margin-left: 5px;
+}
