@@ -5,3 +5,27 @@
   width: 400px;
   padding: 21px;
 }
+
+.sala
+{
+  padding: 30px;
+  margin: 30px;
+  background-color: #156482;
+  width: 200px;
+}
+
+.tutki
+{
+  margin: 30px;
+  padding: 50px;
+  background-color: #1bfa30;
+  width: 300px;
+}
+.jako
+{
+  margin: 0 auto;
+  margin-top: 60px;
+  padding: 10px;
+  background-color: #9390A0;
+  width: 350px;
+}
