@@ -1,0 +1,15 @@
+#foto
+{
+  width: 15rem;
+  box-shadow: 1rem 1rem 1rem navy;
+}
+.tieto
+{
+  margin: 0 auto;
+  width: 30rem;
+  padding: 5rem;
+}
+body
+{
+  background-color: lightblue;
+}
