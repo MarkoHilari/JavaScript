@@ -1,0 +1,17 @@
+body
+{
+  background-color: #FAFAD2;
+}
+
+#eka
+{
+  float: left;
+}
+#toka
+{
+  float: right;
+}
+img
+{
+  margin: 10px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="lomake2.css">
+    <script src="lomake2.js" charset="utf-8"></script>
+    <title>Lomaketreeniä</title>
+  </head>
+  <body>
+    <form class="border" action="index.html" method="post">
+      <div class="tiedot">
+        <label for="Etunimi">Anna etunimesi: </label>
+        <input type="text" id="enimi" value=""><br>
+        <label for="Sukunimi">Anna sukunimesi: </label>
+        <input type="text" id="snimi" value="">
+      </div>
+      <div class="tiedot">
+        <p>Tulin tänään kouluun: </p>
+        <input type="radio" name="tulin" value="Kävellen">Kävellen <br>
+        <input type="radio" name="tulin" value="Juosten">Juosten <br>
+        <input type="radio" name="tulin" value="Autolla">Autolla <br>
+        <input type="radio" name="tulin" value="Kopterilla">Kopterilla <br>
+        <input type="radio" name="tulin" value="Veneellä">Veneellä <br>
+        <input type="radio" name="tulin" value="Teleportilla">Teleportilla
+      </div>
+      <div class="tiedot">
+        <p>Lempianeeni koulussa on:</p>
+        <select id="lempiaine" name="">
+          <option value="">(Valitse alla olevista jokin)</option>
+          <option value="Tietotekniikka">Tietotekniikka</option>
+          <option value="Englanti">Englanti</option>
+          <option value="Ruotsi">Ruotsi</option>
+          <option value="Matikka">Matikka</option>
+          <option value="Safkis">Safkis</option>
+          <option value="Liikunta">Liikunta</option>
+          <option value="Kahvihetki">Kahvihetki</option>
+        </select><p></p>
+        <button type="button" name="button" onclick="check()">Lähetä</button>
+      </div>
+    </form>
+    <p id="tulos"></p>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+body{
+  width: 70%;
+  margin: auto;
+}
+div.logoa
+{
+  text-align: center;
+  max-width: 100%;
+}
+div.hr {
+  height: 5px;
+  background: #4919E3;
+}
+div.otsikko
+{
+  text-align: center;
+  clear: both;
+}
+article.tietoa
+{
+  text-align: left;
+}
+section
+{
+  margin-top: 20px;
+}
+.numero1
+{
+  max-width: 5%;
+}
+.lokerot
+{
+  max-width: 30%;
+  padding: 10px;
+  border: 5px solid lightblue;
+  border-radius: 15px;
+  margin: 0;
+  margin-right: 15px;
+  background-color: ;
+  max-height: 60%;
+}
+aside
+{
+  float: right;
+  max-height: 100%;
+  max-width: 60%;
+}
+aside > p
+{
+
+}
+.text-right{float: right;
+
+}
+.laheta
+{
+  margin-right: 20px;
+  background-color: lightblue;
+}
+.border
+{
+    border:1px solid black;
+}
+.otsikko > label
+{
+  min-width: 100px;
+  border:1px solid black;
+}
+label
+{ display: inline-block; width: 100px; }
+.joku
+{
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.lokero
+{
+  max-width: 40%;
+  padding: 10px;
+  border: 0px solid lightblue;
+  margin: 0;
+  margin-left: 15px;
+  background-color: ;
+  max-height: 60%;
+  list-style: none;
+}
+.speech
+{
+  width: 35px;
+  height: 25px;
+  float: left;
+  margin-left: 3%;
+}
+.footerline
+{
+  background-color: lightblue;
+  height: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 20px;
+}
+ul li
+{
+  list-style: none;
+}

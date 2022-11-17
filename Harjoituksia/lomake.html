@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="lomake.css">
+    <title>Lomake</title>
+  </head>
+  <body>
+    <main>
+      <div class="border">
+        <h2>Lomake</h2>
+        <form class="" action="index.html" method="post">
+          <label for="enimi">Etunimi</label>
+          <input type="text" id="enimi" value=""><br>
+          <label for="snimi">Sukunimi</label>
+          <input type="text" id="snimi" value=""><br>
+          <label for="knimi">Käyttäjätunnus</label>
+          <input type="text" id="snimi" value=""><br>
+          <label for="salanimi">Salasana</label>
+          <input type="password" id="salanimi" name="salanimi"><br>
+          <p>Sukupuoli:</p>
+          <input type="radio" id="Mies" value="Mies">
+          <label for="Mies">Mies</label><br>
+          <input type="radio" id="Nainen" value="Nainen">
+          <label for="Nainen">Nainen</label><br><br>
+          <label id="palaute"for="Palaute">Palaute</label>
+          <textarea name="Palaute" rows="6" cols="45"></textarea><br>
+          <label for="jasenyystaso">Jäsenyystaso</label>
+          <select id="jasenyystaso">
+            <option value="">Valitse yksi</option>
+            <option value="admin">Admin</option>
+            <option value="kayttaja">Käyttäjä</option>
+            <option value="testi">Testi</option>
+          </select>
+          <h2>Valitse osaamisalueet</h2>
+          <label for="php">PHP</label>
+          <input type="checkbox" name="osaamisalue" value="PHP"><br>
+          <label for="html">HTML</label>
+          <input type="checkbox" name="osaamisalue" value="PHP"><br>
+          <label for="css">CSS</label>
+          <input type="checkbox" name="osaamisalue" value="PHP"><br><br>
+          <input id="button" type="submit" name="Lähetä">
+          <input id="tyhjaa" type="reset" name="Tyhjennä">
+        </form>
+      </div>
+
+    </main>
+
+  </body>
+</html>

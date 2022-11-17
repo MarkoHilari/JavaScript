@@ -1,0 +1,140 @@
+body
+{
+  width: 800px;
+  margin: auto;
+  background-color: #FFF2CD;
+}
+header{
+  padding: 5px, 0px, 10px, 10px;
+}
+nav
+{
+  width: 200px;
+  margin: auto;
+  background-color: #FFFBED;
+}
+header > h1
+{
+  text-align: center;
+}
+h1, h3
+{
+  margin-left: 20px;
+}
+h3
+{
+  font-size: 25px;
+}
+h4
+{
+  font-size: 20px;
+  text-align: center;
+}
+h5
+{
+  font-size: 15px;
+  font-style: italic;
+  margin-left: 30px;
+}
+section > p
+{
+  margin-left: 20px;
+}
+aside
+{
+  float: right;
+  background-color: #B7AE5F;
+  width: 200px;
+  height: 780px;
+  padding: 20px;
+}
+article
+{
+  width: 560px;
+  height: 820px;
+  float: left;
+  background-color: #CCBE90;
+}
+.omakuva
+{
+  height: 150px;
+  margin-left: 25px;
+}
+.oikea
+{
+  margin-top: 70px;
+  margin-right: 15px;
+  float: right;
+  height: 225px;
+  box-shadow: 5px 5px;
+}
+section
+{
+  margin-bottom: -10px;
+  padding: 10px;
+  height: 300px;
+}
+footer
+{
+  clear: both;
+  background-color: #B7A05F;
+}
+.auto{
+  height: 150px;
+}
+.lätkä
+{
+  height: 150px;
+}
+.perhe
+{
+  height: 160px;
+}
+.kuka
+{
+  height: 180px;
+}
+.diva
+{
+  height: 280px;
+  margin-left: 100px;
+}
+.koira
+{
+  height: 400px;
+  margin-top: 60px;
+}
+.polo
+{
+  height: 270px;
+  margin-left: 20px;
+}
+.ael
+{
+  height: 150px;
+  margin-left: 30px;
+}
+.työ1
+{
+  height: 220px;
+  margin-top: -20px;
+}
+.työ2
+{
+  height: 220px;
+}
+.incar
+{
+  height: 150px;
+  width: 200px;
+  margin-left: 30px;
+}
+.bilia
+{
+  height: 130px;
+  margin-left: 30px;
+}
+.tietoja
+{
+
+}

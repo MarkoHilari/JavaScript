@@ -1,0 +1,14 @@
+body
+{
+  background-color: #FAFAD2;
+}
+
+.vasen
+{
+  float: left;
+  clear: both;
+}
+.oikea
+{
+  float: right;
+}

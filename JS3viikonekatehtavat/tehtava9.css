@@ -1,0 +1,21 @@
+article
+{
+  margin: 0 auto;
+  padding: 20px;
+  width: 300px;
+  background-color: #2117A6;
+  box-shadow: 10px 10px 50px 50px #6159C8;
+  border-color: navy;
+  border-style:inset ;
+}
+#button
+{
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 5px 5px 10px;
+}
+#button:hover
+{
+  background-color: black;
+  color: red;
+}

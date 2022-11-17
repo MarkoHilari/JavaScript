@@ -1,0 +1,14 @@
+table, th, td
+{
+  border-radius: 8px; border:1px solid black;
+}
+
+body
+{
+  color: navy;
+}
+h2
+{
+  margin-left: 400px;
+  box-shadow: 10%
+}

@@ -1,0 +1,32 @@
+body
+{
+  background-color: grey;
+margin-top: 30px;
+}
+.border
+{
+  border: 2px solid black;
+}
+label
+{
+  font-size: 18px;
+  display: inline-block;
+  width: 200px;
+}
+form
+{
+  margin: 0 auto;
+  width: 30%;
+  background-color: lightblue;
+}
+#tulos
+{
+  margin: 0 auto;
+  width: 428px;
+  background-color: black;
+  color: white;
+}
+div
+{
+  border: 1px solid black;
+}
