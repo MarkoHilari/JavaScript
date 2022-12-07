@@ -9,7 +9,7 @@ function info()
     + " <br><b>Age: </b>" + data.results[0].dob.age
     + "<br><b>Phone: </b>" + data.results[0].cell
     + "<br><b>Email: </b>" + data.results[0].email
-    + "<br><b>Gender: </b> Unknown"
+    + "<br><b>Gender: </b>" + data.results[0].gender
     + "<br><b>Country: </b>" + data.results[0].location.country
     + "<br><b>City: </b>" + data.results[0].location.city
     + "<br><b>Username: </b>" + data.results[0].login.username
