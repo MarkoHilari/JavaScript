@@ -28,4 +28,4 @@
       guess++;
       alert("OOPS SORRY!! TRY A GREATER NUMBER")
   }
-}
+};
